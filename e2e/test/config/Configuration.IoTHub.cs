@@ -14,7 +14,7 @@ namespace Microsoft.Azure.Devices.E2ETests
             public static string ConnectionString => GetValue("IOTHUB_CONNECTION_STRING");
             public static string X509ChainDeviceName => GetValue("IOTHUB_X509_CHAIN_DEVICE_NAME");
 
-            public static string UserAssignedMsiResourceId => GetValue("IOTHUB_USER_ASSIGNED_MSI_RESOURCE_ID");
+            public static string UserAssignedMsiResourceId => "";
 
             public static X509Certificate2 GetCertificateWithPrivateKey()
             {

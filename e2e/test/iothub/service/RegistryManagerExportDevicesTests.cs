@@ -48,7 +48,7 @@ namespace Microsoft.Azure.Devices.E2ETests.Iothub.Service
         [DoNotParallelize]
         [DataRow(StorageAuthenticationType.KeyBased, false)]
         [DataRow(StorageAuthenticationType.IdentityBased, false)]
-        [DataRow(StorageAuthenticationType.IdentityBased, true)]
+        //[DataRow(StorageAuthenticationType.IdentityBased, true)]
         public async Task RegistryManager_ExportDevices(StorageAuthenticationType storageAuthenticationType, bool isUserAssignedMsi)
         {
             // arrange
